@@ -41,5 +41,5 @@
                 databaseName="${shared.resource.dir}DefaultDB"
                 createDatabase="false" />
     </dataSource>
-
+<!-- bogus change -->
 </server>
