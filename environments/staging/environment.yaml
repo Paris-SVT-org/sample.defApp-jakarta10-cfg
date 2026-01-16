@@ -47,6 +47,8 @@ app:
   env:
     - name: SOME_ENV_VAR_NAME
       value: some_env_var_value
+    - name: NEW_ENV_VAR
+      value: new_env_var_value
 
   # Set a list of Liberty variables for the application. 
   # Reference the variables in the server.xml using the 
