@@ -24,7 +24,7 @@ app:
     # high-availability support, set this value to at least 3. The service
     # spreads instances among different availability zones. 
     # Defaults to 1 if not set.
-    min: 3
+    min: 5
     
     # The maximum number of instances. Cannot be less than the min value. 
     # Defaults to the min value if not set.
@@ -47,8 +47,8 @@ app:
   env:
     - name: SOME_ENV_VAR_NAME
       value: some_env_var_value
-    - name: NEW_ENV_VAR
-      value: new_env_var_value
+    - name: NEW_ENV_VAR_2
+      value: new_env_var_2_value
 
   # Set a list of Liberty variables for the application. 
   # Reference the variables in the server.xml using the 
